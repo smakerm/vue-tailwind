@@ -1,0 +1,38 @@
+{
+  "name": "tailwind",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "@vueuse/core": "^10.2.0",
+    "animate.css": "^4.1.1",
+    "element-plus": "^2.3.7",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.1.4",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.2"
+  },
+  "devDependencies": {
+    "@iconify-json/carbon": "^1.1.18",
+    "@iconify-json/ep": "^1.1.11",
+    "@iconify-json/noto": "^1.1.11",
+    "@types/node": "^20.3.2",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "@vitejs/plugin-vue-jsx": "^3.0.1",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2",
+    "typescript": "^5.0.2",
+    "unplugin-auto-import": "^0.16.4",
+    "unplugin-icons": "^0.16.3",
+    "unplugin-vue-components": "^0.25.1",
+    "vite": "^4.3.9",
+    "vue-tsc": "^1.4.2"
+  }
+}
